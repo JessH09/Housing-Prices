@@ -1,38 +1,82 @@
 # Predict Housing Prices
 
-## Project Idea
-The project aims to predict housing prices based on various factors such as the number of rooms, bathrooms, amenities, etc.
+### Project Overview
 
-## Front End Idea
-We plan to develop a website where users can input the number of rooms, bathrooms, amenities, and other relevant information, and the website will predict the price based on that data.
+#### Predicting Housing Prices
 
-## Machine Learning Technique
-We will use linear regression for the machine learning aspect of the project. This will help us model the relationship between the input features and the housing prices.
+The primary goal of this project is to predict housing prices based on various factors, such as the number of rooms, bathrooms, and available amenities. By leveraging machine learning techniques, we aim to provide accurate and reliable price estimates to help potential homebuyers and real estate professionals make informed decisions.
 
-## Repository
-[Link to Repository](#) <!-- Add your repository link here -->
+### Table of Contents
 
-## Programming Language
-We will primarily use Python for data preprocessing, exploratory data analysis (EDA), and model development. However, we'll also utilize TensorFlow for Java for certain aspects.
+- [Project Overview](#project-overview)
+- [Objective](#objective)
+- [Front End Development](#front-end-development)
+- [Machine Learning Approach](#machine-learning-approach)
+- [Technologies and Tools](#technologies-and-tools)
+- [Dataset](#dataset)
+- [Team Responsibilities](#team-responsibilities)
+- [Repository](#repository)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Project Status and Future Improvements](#project-status-and-future-improvements)
 
-## Dataset
-We will use the following dataset for training and testing our model: [Housing Price Dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset/data)
+### Objective
 
-## Responsibilities
-- **Clean Data**:
+The primary goal of this project is to predict housing prices based on various factors, such as the number of rooms, bathrooms, and available amenities. By leveraging machine learning techniques, we aim to provide accurate and reliable price estimates to help potential homebuyers and real estate professionals make informed decisions.
+
+### Front End Development
+
+We will develop an intuitive and user-friendly website where users can input details about a property, including the number of rooms, bathrooms, and other relevant amenities. The website will then utilize our predictive model to estimate the property's market price, offering users immediate insights based on their inputs.
+
+### Machine Learning Approach
+
+For the predictive model, we will employ linear regression to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Linear regression is chosen for its simplicity and effectiveness in handling this type of regression problem.
+
+### Technologies and Tools
+
+- **Programming Language**: The primary language for data preprocessing, exploratory data analysis (EDA), and model development will be Python. TensorFlow for Java will be used for implementing the machine learning model.
+- **Frameworks and Libraries**:
+  - **Data Preprocessing and EDA**: Pandas, NumPy, Matplotlib, Seaborn
+  - **Machine Learning**: TensorFlow for Java
+  - **Web Development**: HTML, Flask (integrated with Java)
+
+### Dataset
+
+The dataset for training and testing our model is sourced from Kaggle, specifically the [Housing Price Dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset/data). This dataset includes various attributes relevant to housing prices, allowing for comprehensive analysis and model training.
+
+#### Dataset Features
+
+- **Number of rooms**
+- **Number of bathrooms**
+- **Square footage**
+- **Amenities**
+- **Location**
+- **Price** (target variable)
+
+### Team Responsibilities
+
+- **Data Cleaning**
   - **Team Member**: Rodney
-  - **Language**: Python
+  - **Tasks**: Cleaning and preparing the dataset for analysis using Python.
 
-- **Exploratory Data Analysis (EDA)**:
+- **Exploratory Data Analysis (EDA)**
   - **Team Members**: Jess and Rossie
-  - **Tasks**: Investigate if there's a linear relationship between the number of bedrooms, bathrooms, square footage, and the housing prices.
+  - **Tasks**: Performing EDA to uncover patterns and relationships within the data, particularly focusing on how features like the number of bedrooms, bathrooms, and square footage correlate with housing prices.
 
-- **Machine Learning Model Creation**:
+- **Machine Learning Model Development**
   - **Team Members**: Jess and Rossie
-  - **Technologies**: TensorFlow for Java
-  - **Approach**: Develop a linear regression model using TensorFlow for Java.
+  - **Tasks**: Developing the linear regression model using TensorFlow for Java, and fine-tuning the model for optimal performance.
 
-- **Website Development**:
+- **Website Development**
   - **Team Member**: Francesca
-  - **Technologies**: HTML, Flask (via Java)
+  - **Tasks**: Designing and developing the website using HTML and Flask (via Java), ensuring seamless integration with the predictive model.
 
+### Repository
+
+For more detailed information and access to our codebase, please visit our project repository: [Link to Repository](#) <!-- Add your repository link here -->
+
+### Setup and Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone [repository link]
