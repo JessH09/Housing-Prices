@@ -80,3 +80,45 @@ For more detailed information and access to our codebase, please visit our proje
 1. **Clone the repository**:
    ```bash
    git clone [repository link]
+
+2. **Navigate to the project directory**:
+   ```bash
+    cd predict-housing-prices
+
+3. **Install the necessary Python packages**:
+    ```bash
+    pip install -r requirements.txt
+
+4. **Setup TensorFlow for Java (instructions to be added based on specific setup)**.
+
+### Usage
+
+1. **Run the data cleaning script**:
+bash
+python data_cleaning.py
+
+### STOPPED HERE ###
+Perform exploratory data analysis:
+
+bash
+Copy code
+python eda.py
+Train the linear regression model:
+
+bash
+Copy code
+python train_model.py
+Start the web application:
+
+bash
+Copy code
+flask run
+Open your browser and navigate to http://localhost:5000 to use the application.
+
+Project Status and Future Improvements
+This project is currently in development. Future improvements include:
+
+Adding more features to the model for better predictions.
+Implementing a more advanced machine learning algorithm.
+Enhancing the user interface of the website.
+Providing deployment instructions for cloud platforms.
