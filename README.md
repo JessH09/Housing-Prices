@@ -94,25 +94,21 @@ For more detailed information and access to our codebase, please visit our proje
 ### Usage
 
 1. **Run the data cleaning script**:
-bash
-python data_cleaning.py
+   ```bash
+   python data_cleaning.py
 
-### STOPPED HERE ###
-Perform exploratory data analysis:
+2. **Perform exploratory data analysis**:
+   ```bash
+    python eda.py
 
-bash
-Copy code
-python eda.py
-Train the linear regression model:
+3. **Train the linear regression model**:
+    ```bash
+    python train_model.py
 
-bash
-Copy code
-python train_model.py
-Start the web application:
+4. **Start the web application**:
+    ```bash
+    flask run
 
-bash
-Copy code
-flask run
 Open your browser and navigate to http://localhost:5000 to use the application.
 
 Project Status and Future Improvements
