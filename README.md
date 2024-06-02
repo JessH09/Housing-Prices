@@ -112,6 +112,9 @@ For more detailed information and access to our codebase, please visit our proje
 Open your browser and navigate to http://localhost:5000 to use the application.
 
 Project Status and Future Improvements
+
+permalink: /index_test.html
+
 This project is currently in development. Future improvements include:
 
 Adding more features to the model for better predictions.
