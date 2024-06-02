@@ -343,16 +343,19 @@
 
 <!-- JavaScript for Star Rating -->
 <script>
-    function rate(rating) {
+    function rate(value) {
+        document.getElementById('view').value = value;
         for (let i = 1; i <= 4; i++) {
-            if (i <= rating) {
-                document.getElementById('star' + i).classList.add('checked');
-            } else {
-                document.getElementById('star' + i).classList.remove('checked');
-            }
+            document.getElementById('star' + i).classList.remove('checked');
         }
-        document.getElementById('view').value = rating;
+        for (let i = 1; i <= value; i++) {
+            document.getElementById('star' + i).classList.add('checked');
+        }
     }
-    </script>
+
+    // Initialize with no stars checked
+    rate(0);
+</script>
+
 </body>
 </html>
