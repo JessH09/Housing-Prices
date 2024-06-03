@@ -30,14 +30,14 @@ We will develop an intuitive and user-friendly website where users can input det
 
 ### Machine Learning Approach
 
-For the predictive model, we will employ linear regression to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Linear regression is chosen for its simplicity and effectiveness in handling this type of regression problem.
+For the predictive model, we will employ Random Forest Regressor to understand and model the relationship between the input features (e.g., number of rooms, bathrooms, amenities) and housing prices. Random Forest Regressor is chosen for its simplicity and effectiveness in handling this type of regression problem.
 
 ### Technologies and Tools
 
 - **Programming Language**: The primary language for data preprocessing, exploratory data analysis (EDA), and model development will be Python. TensorFlow for Java will be used for implementing the machine learning model.
 - **Frameworks and Libraries**:
-  - **Data Preprocessing and EDA**: Pandas, NumPy, Matplotlib, Seaborn
-  - **Machine Learning**: TensorFlow for Java
+  - **Data Preprocessing and EDA**: Pandas, NumPy, Matplotlib
+  - **Machine Learning**: Random Forest Regressor
   - **Web Development**: HTML, Flask (integrated with Java)
 
 ### Dataset
